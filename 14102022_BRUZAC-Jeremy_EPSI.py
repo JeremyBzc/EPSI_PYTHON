@@ -140,10 +140,14 @@ qui doit contenir le nombre décimal 20135,384.
 La variable 'amis' qui doit contenir une liste contenant trois chaîne de caractères: Marie, Julien et Adrien
 La variable 'parents' qui doit contenir un tuple contenant deux chaînes de caractères : Marc et Caroline) """
 
-prenom = "Pierre"
-age = int(20)
-majeur = True
+prenom = "Pierre" # une string
+age = 20 # un entier
+majeur = True # Un booléen
+compte_en_banque = 20135.384 # Un float
+amis = ["Marie", "Julien", "Adrien"] # Une liste
+parents = ("Marc", "Caroline") # Un tuple
 
+print(type(prenom))
 
 
 # [EXERCICE 03] : Variable d'un type vers un autre. Après avoir déclaré une variable afficher "Le nombre est 17"
